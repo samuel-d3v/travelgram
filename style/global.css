@@ -46,60 +46,12 @@ a:hover {
   background-color: var(--surface-color);
 }
 
-section {
-  height: 240px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 0 32px;
-
-  background-color: var(--surface-color);
-}
-
-section .main {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-
-  width: 592px;
-  height: 176px;
-  margin-left: 32px;
-}
-
 section .frame h1 {
   font-size: 32px;
   color: var(--text-color-primary);
   line-height: 125%;
 
   margin-bottom: 8px;
-}
-
-section .frame p {
-  font-size: 14px;
-  line-height: 170%;
-  color: var(--text-color-secondary);
-}
-
-.info {
-  width: 280px;
-  height: 104px;
-}
-
-.location, .countries, .photos {
-  display: flex;
-  gap: 8px;
-
-  font-size: 14px;
-  color: var(--text-color-secondary);
-}
-
-.info div {
-  margin-bottom: 16px;
-} 
-
-.photos {
-  margin-bottom: 0;
 }
 
 main {
