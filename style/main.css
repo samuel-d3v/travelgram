@@ -1,10 +1,11 @@
 main {
   display: grid;
   grid-template-columns: 286px 286px 286px 286px;
-  grid-template-rows: 286px 286px 286px 286px;
+  grid-template-rows: 286px 286px 286px;
 
   justify-content: center;
   gap: 24px;
+  padding-block: 24px;
 }
 
 main .card img {
