@@ -19,6 +19,14 @@ header .main {
   margin-left: 32px;
 }
 
+header .frame h1 {
+  font-size: 32px;
+  color: var(--text-color-primary);
+  line-height: 125%;
+
+  margin-bottom: 8px;
+}
+
 header .frame p {
   font-size: 14px;
   line-height: 170%;

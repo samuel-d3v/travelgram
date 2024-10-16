@@ -45,31 +45,3 @@ a:hover {
 .bg-surface-color {
   background-color: var(--surface-color);
 }
-
-section .frame h1 {
-  font-size: 32px;
-  color: var(--text-color-primary);
-  line-height: 125%;
-
-  margin-bottom: 8px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 286px 286px 286px 286px;
-  grid-template-rows: 286px 286px 286px 286px;
-
-  justify-content: center;
-  gap: 24px;
-}
-
-main .card {  
-  height: 286px;
-  width: 286px;
-
-  overflow: hidden;
-}
-
-main .card img {
-  max-width: 100%;
-}
