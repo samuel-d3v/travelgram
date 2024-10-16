@@ -3,6 +3,8 @@ footer {
   justify-content: space-between;
   
   padding: 26px 32px;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 footer div {
