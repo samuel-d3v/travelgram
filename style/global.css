@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text:"Poppins", sans-serif;
+  --brand-color: #EF5F4C;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+}
+
+body {
+  font-family: var(--text);
+
+  color: var(--text-color-secondary);
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+  line-height: 150%;
+
+  color: inherit;
+} 
+
+a:hover {
+  text-decoration: underline;
+  color: var(--brand-color);
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;  
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
+
+section {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 32px;
+
+  background-color: var(--surface-color);
+}
+
+section .main {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  width: 592px;
+  height: 176px;
+  margin-left: 32px;
+}
+
+section .frame h1 {
+  font-size: 32px;
+  color: var(--text-color-primary);
+  line-height: 125%;
+
+  margin-bottom: 8px;
+}
+
+section .frame p {
+  font-size: 14px;
+  line-height: 170%;
+  color: var(--text-color-secondary);
+}
+
+.info {
+  width: 280px;
+  height: 104px;
+}
+
+.location, .countries, .photos {
+  display: flex;
+  gap: 8px;
+
+  font-size: 14px;
+  color: var(--text-color-secondary);
+}
+
+.info div {
+  margin-bottom: 16px;
+} 
+
+.photos {
+  margin-bottom: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 286px 286px 286px 286px;
+  grid-template-rows: 286px 286px 286px 286px;
+
+  justify-content: center;
+  gap: 24px;
+}
+
+main .card {  
+  height: 286px;
+  width: 286px;
+
+  overflow: hidden;
+}
+
+main .card img {
+  max-width: 100%;
+}
